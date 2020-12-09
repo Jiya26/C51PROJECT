@@ -1,0 +1,19 @@
+h2{
+    color: skyblue;
+    font-style: oblique;
+}
+
+.animal{
+    font-style: italic;
+    align-items: center;
+}
+
+.header{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.grid{
+    display: flex;
+    flex-direction: column;
+}
