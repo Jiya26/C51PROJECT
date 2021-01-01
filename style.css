@@ -4,8 +4,12 @@ h2{
 }
 
 .animal{
-    font-style: italic;
-    align-items: center;
+    border-radius: 20px;
+    background-color: #ffffff;
+    padding: 30px;
+    margin: 25px;
+    width: 310px;
+    font-family: fantasy;
 }
 
 .header{
@@ -15,12 +19,28 @@ h2{
 
 .grid{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-evenly; 
     flex-wrap: wrap;
     margin: dotted;
     padding: 5mm;
     border-radius: 3mm;
+    margin: 0px;
+    background-color: #793434;
 }
 
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: #0ebec4;
+    padding: 15px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: #9a37a1;
+}
 
+.grid img{
+    border: 2px solid #000000;
+    border-radius: 50px;
+}
